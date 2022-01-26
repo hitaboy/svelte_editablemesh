@@ -14,6 +14,10 @@ Functionalities:
 
 All was developed with Svelte in Vite.
 
+This templae uses: https://github.com/Pomax/bezierjs
+Lots of information in: https://pomax.github.io/bezierinfo/#catmullconv
+
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
