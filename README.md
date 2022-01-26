@@ -1,6 +1,18 @@
-# Svelte + Vite
+# Svelte Editable Mesh
 
-This template should help get you started developing with Svelte in Vite.
+Create and edit a mesh. 
+Functionalities: 
+- Choose the columns
+- Choose rows 
+- Choose LUT ( subdivision of beziers )
+- Edit the points position
+- Edit the beziers
+- Toggle bezier skeletons
+- Reset mesh. 
+- Edit multiple points or beziers ( mantain shift pressed to select them )
+- Render points serialized in columns ( output in console )
+
+All was developed with Svelte in Vite.
 
 ## Recommended IDE Setup
 
