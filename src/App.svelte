@@ -368,6 +368,10 @@
 
 <div class="mesh_container">
   <div class="options">
+    <input type="number" bind:value={meshResolutions[0].columns} min=4 max=26 step=2
+    on:change={() => reset()} />
+    <input type="number" bind:value={meshResolutions[0].rows} min=4 max=26 step=2
+    on:change={() => reset()} />
     <button on:click={toggleSkeletons}>
       {#if !skeletons_state}
         <p>Show skeletons</p>
